@@ -3,7 +3,11 @@ const input_04 = +process.argv[2]
 //    
 //}
 let result = ""
-for (let i = input_04; i <= input_04; i--){
-    if (i)
+for (let i = 0; i <= input_04; i--){
+    if (i < input_04){
+        result += ""
+    }else {
+        result += "i"
+    }
 }
 console.log(result)

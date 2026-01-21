@@ -10,7 +10,7 @@ function fizzBuzz(input_03: number): string[] {
          } else if (i % 5 === 0) {
             console.log("Buzz");
          } else {
-            console.log(i.toString());
+            console.log(i);
          }
      }
      return answer;
