@@ -1,2 +1,1 @@
-// Write your code below
-console.log("asdasd")
+console.log("Hello Exam")
