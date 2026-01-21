@@ -1,5 +1,6 @@
 function getUniqueNumbers(arr1: number[], arr2: number[]): number[] {
   const merged = [...arr1, ...arr2]
+  
   return merged
 }
 
