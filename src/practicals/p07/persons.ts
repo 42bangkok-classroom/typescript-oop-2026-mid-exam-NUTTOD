@@ -4,7 +4,11 @@ interface Person {
   age?: number;
 }
 
-function sortPersons(persons: Person[]): Person[] {}
+function sortPersons(persons: Person[]): Person[] {
+  return persons.sort((a, b) => {
+    
+  })
+}
 
 
 const persons: Person[] = [
