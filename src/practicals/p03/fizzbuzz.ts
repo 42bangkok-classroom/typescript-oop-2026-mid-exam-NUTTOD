@@ -2,7 +2,7 @@ const input_03 = +process.argv[2]
 
 function fizzBuzz(input_03: number): string[] {
     let answer: string[] = [];
-     for (let i = 1; i <= input_03; i++) {
+     for (let i = 0; i <= input_03; i++) {
          if (i % 3 === 0 && i % 5 === 0) {
              console.log("FizzBuzz");
          } else if (i % 3 === 0) {
